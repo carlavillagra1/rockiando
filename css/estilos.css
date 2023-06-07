@@ -97,6 +97,7 @@ p{
     font-size: 30px;
     border-radius: 10px;
     background:   #babdc4;
+    width: 200px;
     
 }
 
@@ -429,21 +430,24 @@ height: 50px;
         flex-direction: column;
     
     }
-    .banner{
-        height: 30vh;
-
+    .d-block{
+        background-size: cover;
+        height: 50vh;
+        width: 20%;
+        padding: 10px;
     }
     .secciones{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
         height: 50vh;
+        justify-content: center;
         
     }
     .secciones div{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        
     }
     .btnProd{
         text-decoration: none;
