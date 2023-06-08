@@ -65,6 +65,9 @@ a{
     margin: 0;
     padding: 0;
 }
+.nav-link{
+    color: antiquewhite;
+ }
 
 
 h3 {
@@ -194,48 +197,12 @@ align-items: center;
     
 }
 
-/*class index*/
-/*
-.contenedor{
-    display: grid;
-    grid-template-columns: 500px 500px  ;
-    grid-template-rows: 300px ;
-    grid-template-areas:
-     "logo menu"
-     "banner banner"
-     "secciones secciones"
-     "footer footer"
-    ;
-}
-.logo{
-    grid-area: logo;
-
-}
-.menu{
-    grid-area: menu;
-
-}
-.banner{
-    grid-area: banner;
-
-}
-.secciones{
-    grid-area: secciones;
-
-}
-.footer{
-    grid-area: footer;
-}
-*/
-
-
-
 /*class contacto*/
 .padreContacto{
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 550px;
 
 }
 .contacto{
@@ -243,15 +210,18 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    height: 350px;
+    height: 450px;
     padding: 20px ;
     border: solid 1px gray;
     border-radius: 20px;
-    width: 450px;
+    width: 650px;
     background: #babdc4;
   
 
     
+}
+.hijocontacto{
+    text-align: center;
 }
 .contacto h1{
     text-align: center;
@@ -281,18 +251,18 @@ align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 90vh;
 }
 .padreInfo{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-    width: 400px;
+    width: 530px;
     background: #babdc4;
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
-    height: 300px;
+    height: 500px;
 }
 
 .padreInfo img{
@@ -321,7 +291,7 @@ align-items: center;
 .padreEntrega{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    height: 500px;
+    height: 700px;
 }
 .entrega{
      display: flex;
@@ -332,7 +302,7 @@ align-items: center;
     border: solid 1px gray;
     border-radius: 20px;
     padding: 10px;
-    height: 430px;
+    height: 530px;
     margin: 10px;
 }
 
